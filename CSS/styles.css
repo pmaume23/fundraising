@@ -180,3 +180,9 @@ a:hover {
 	position:relative;
 	top:1px;
 }
+
+.copyright{
+  color: #086972;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
