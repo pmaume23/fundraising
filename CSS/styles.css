@@ -47,6 +47,21 @@ a {
 a:hover {
   color: #EAF6F6;
 }
+.cloud-one{
+  position: absolute;
+  right: 250px;
+  top: 60px;
+}
+
+.cloud-two{
+  position: absolute;
+  left: 250px;
+  top: 250px;
+}
+
+.books{
+  border-radius: 8px;
+}
 
 .firstparagraph {
   font-size: 2.0rem;
@@ -71,9 +86,9 @@ a:hover {
   position: relative;
   color: #fff;
   background-color: #c7e2b2;
-  padding: 50px 0 20px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .donation-message {
@@ -85,6 +100,7 @@ a:hover {
 
 .finance{
   text-align: center;
+  padding: 30px 40px 50px;
 }
 
 .container-fluid{
@@ -122,63 +138,45 @@ a:hover {
   text-align: left;
 }
 
-.data-science {
-  width: 30%;
-  border-radius: 70%;
-  float: left;
-  margin-right: 30px;
-}
 
-.electrical-computer-eng {
-  width: 40%;
-  border-radius: 70%;
-  float: right;
-  margin-left: 30px;
-}
 
-.Web-design {
-  width: 30%;
-  border-radius: 70%;
-  float: left;
-  margin-left: 30px;
-}
+
 
 .kudzie-png {
   border-radius: 100%;
   /* width: 50%; */
 }
 
-.contact-me {
+.last-container{
+
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.contact-me{
   width: 40%;
   margin: 40px auto 15px auto;
 }
 
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0 20px 0;
-}
-
 .myButton {
-  background-color: #7892c2;
-  border-radius: 8px;
-  border: 1px solid #4e6096;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  text-shadow: -1px -3px 20px #283966;
+	background-color:#01a9b4;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:-1px -3px 20px #283966;
 }
-
-
 .myButton:hover {
-  background-color: #476e9e;
+	background-color:#476e9e;
 }
-
 .myButton:active {
-  position: relative;
-  top: 1px;
+	position:relative;
+	top:1px;
 }
