@@ -55,8 +55,12 @@ a:hover {
 
 .cloud-two{
   position: absolute;
-  left: 180px;
-  top: 250px;
+  left: 250px;
+  top: 360px;
+}
+
+.firstparagraph{
+  padding-bottom: 60px;
 }
 
 .books{
